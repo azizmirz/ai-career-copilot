@@ -1,0 +1,41 @@
+# Environment & Secrets
+venv/
+.env
+
+# Python cache & Testing
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Databases & Local Storage
+career_copilot
+*.db
+qdrant_storage/
+
+# Logs
+logs/
+
+# Docker deployment files
+Dockerfile
+Dockerfile.*
+docker-compose*.yml
+.dockerignore
+
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# Workspace faylları
+*.code-workspace
+*.code-workspace.*
+workspace.json
+
+# Progress və sənədləşmə qeydləri
+progress.md

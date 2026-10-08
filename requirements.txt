@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic-settings
+groq
+pypdf
+qdrant-client
+fastembed
+streamlit
+requests
+sqlalchemy
+python-jose[cryptography]
+bcrypt
+passlib[bcrypt]
+pydantic[email]
+slowapi
+loguru
