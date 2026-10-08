@@ -49,25 +49,30 @@ ai-career-copilot/
 ## Getting Started
 
 1. **Prerequisites:**
+    ```
     Python 3.10+
     Pip & Virtual Environment
 
 2. **Clone the Repository**
+    ```
     git clone https://github.com/azizmirz/ai-career-copilot.git
     cd ai-career-copilot
 
 3. **Create and Activate Virtual Environment**
+    ```
     python -m venv venv
-    # On Windows:
+    On Windows:
     venv\Scripts\activate
-    # On macOS/Linux:
+    On macOS/Linux:
     source venv/bin/activate
 
 4. **Install Dependencies**
+    ```
     pip install -r requirements.txt
     pip install -r requirements-dev.txt
 
 5. **Configure Environment Variables**
+    ```
     Create a .env file in the root directory based on .env.example:
     
     GROQ_API_KEY=your_groq_key_here
@@ -76,6 +81,7 @@ ai-career-copilot/
     APP_ENV=development
 
 6. **Running the Application**
+    ```
     1.Start the FastAPI Backend:
     uvicorn app.main:app --reload --port 8000
     (The API documentation will be available at http://localhost:8000/docs)
@@ -85,6 +91,7 @@ ai-career-copilot/
     (The UI will open automatically in your browser at http://localhost:8501)
 
 7. **Running Tests**
+    ```
     To run the automated test suite using pytest
 
 
